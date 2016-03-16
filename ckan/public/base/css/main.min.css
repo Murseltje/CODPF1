@@ -6,7 +6,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     bottom: 50px;
 }
 
-
+.module.module-search.module-narrow.module-shallow.box {
+    margin-right: 7px;
+}
 
 .group-list .module-heading h3 a {
     color: #FFFFFF;
@@ -31,12 +33,14 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
 }
 
 .spans3 {
-    width:25%;
+    width:233px;
     float:left;
+    margin:7px 7px 0 0;
+    
 }
 .spansbox {
     width:100%;
-    margin:7px 7px 0 0;
+   
     height:120px;
     float:left;
     text-align: center;
@@ -57,11 +61,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
 
 
 .spans6 {
-    width:436px;
+    width:443px;
     float:left;
     background-color:#4a8401;
     padding:15px;
-    margin:7px;
+    margin:7px 7px 0 0;
     opacity:0.9;
     font-size:18px;
     color:white;
