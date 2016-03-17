@@ -1,15 +1,19 @@
 <div role="main" class="hero">
-  <div class="container">
+      
+   <div class="wrapperhp"> <div class="container">
+
       <div class="row row1">
       <div class="span6 col1">
         {% block promoted %}
           {% snippet 'home/snippets/promoted.html' %}
         {% endblock %}
       </div>
+          <div class="moveright">  
       <div class="span6 col2">
         {% block search %}
           {% snippet 'home/snippets/search.html' %}
         {% endblock %}
+        </div>  
       </div>
     </div>
   
@@ -21,13 +25,18 @@
     
     </div>
       <div class="row row3">
-<div class="spans6">
+
+          <div class="spans6 col1">
     <p>Vraag een dataset aan</p>
 </div>
-<div class="spans6">
+          
+<div class="spans6 col2">
     <p>Geo data</p>
+
 </div>
+          
  </div>
+     </div>
   </div>
 </div>
 
